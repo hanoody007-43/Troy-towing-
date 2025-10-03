@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Troy Towing LLC | Towing & Roadside in Troy & Sterling Heights</title>
+  <meta name="description" content="Fast, affordable towing and roadside assistance serving Troy & Sterling Heights. Flatbed towing, jump starts, lockouts, tire changes, fuel delivery.">
+  <meta name="keywords" content="towing near me, tow truck, roadside assistance, jump start, lockout, flatbed towing, Troy MI, Sterling Heights MI">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon.ico">
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "AutomotiveBusiness", "name": "Troy Towing LLC", "telephone": "(248) 606-7934", "address": {"@type": "PostalAddress", "addressLocality": "Sterling Heights, MI", "addressRegion": "MI", "addressCountry": "US"}, "areaServed": "Troy • Sterling Heights • Warren • Madison Heights • Utica", "openingHours": "Mo-Su 08:00-20:00", "url": "https://example.com", "priceRange": "$$", "sameAs": ["https://www.google.com/search?q=Troy+Towing+LLC"]}
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <img src="logo.svg" alt="Troy Towing LLC logo" class="logo">
+        <div class="brand-text">
+          <h1>Troy Towing LLC</h1>
+          <p class="sub">Towing & Roadside Assistance</p>
+        </div>
+      </div>
+      <a class="phone" href="tel:+12486067934">(248) 606-7934</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-copy">
+        <h2>Stuck? We’ll be there fast.</h2>
+        <p>Flatbed towing, jump starts, lockouts, tire changes &amp; fuel delivery across Troy and Sterling Heights.</p>
+        <div class="cta-row">
+          <a class="btn primary" href="tel:+12486067934">📞 Call Now • (248) 606-7934</a>
+          <a class="btn ghost" href="#services">View Services</a>
+        </div>
+        <ul class="highlights">
+          <li>Licensed & Insured</li>
+          <li>ETA updates by phone/text</li>
+          <li>Upfront, flat rates</li>
+        </ul>
+      </div>
+      <div class="hero-card">
+        <div class="card">
+          <h3>Hours</h3>
+          <p>Mon–Sun, 8:00 AM – 8:00 PM</p>
+          <h3>Service Area</h3>
+          <p>Troy • Sterling Heights • Warren • Madison Heights • Utica</p>
+          <h3>Address</h3>
+          <p>Sterling Heights, MI</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services">
+    <div class="container">
+      <h2>Services</h2>
+      <div class="grid">
+        <div class="svc">
+          <h3>Flatbed Towing</h3>
+          <p>AWD/4x4 safe. Local &amp; short-haul.</p>
+          <p class="price">From $75 + $3/mi</p>
+        </div>
+        <div class="svc">
+          <h3>Jump Start</h3>
+          <p>12V jump with battery check.</p>
+          <p class="price">$40–$60</p>
+        </div>
+        <div class="svc">
+          <h3>Lockout</h3>
+          <p>Quick, damage-free entry.</p>
+          <p class="price">$50–$70</p>
+        </div>
+        <div class="svc">
+          <h3>Tire Change</h3>
+          <p>Spare tire install or tow to shop.</p>
+          <p class="price">$50–$70</p>
+        </div>
+        <div class="svc">
+          <h3>Fuel Delivery</h3>
+          <p>Gas or diesel to your location.</p>
+          <p class="price">$40 + fuel</p>
+        </div>
+        <div class="svc">
+          <h3>Winch-Out</h3>
+          <p>Snow, ditch, mud extractions.</p>
+          <p class="price">From $90</p>
+        </div>
+      </div>
+      <p class="fine">* Final price depends on distance, vehicle, and situation. Call for an exact quote.</p>
+    </div>
+  </section>
+
+  <section class="why">
+    <div class="container">
+      <h2>Why Choose Troy Towing LLC?</h2>
+      <div class="reasons">
+        <div>
+          <h3>Fast ETAs</h3>
+          <p>We dispatch quickly and keep you updated.</p>
+        </div>
+        <div>
+          <h3>Upfront Pricing</h3>
+          <p>No surprises. Get the price before we roll.</p>
+        </div>
+        <div>
+          <h3>Careful Handling</h3>
+          <p>Flatbeds and proper tie‑downs to protect your car.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2>Get a Quote</h2>
+      <form name="quote-form" class="form" onsubmit="return submitForm(event)">
+        <div class="row">
+          <label>Full Name
+            <input type="text" name="name" required>
+          </label>
+          <label>Phone
+            <input type="tel" name="phone" required>
+          </label>
+        </div>
+        <div class="row">
+          <label>Pickup Address
+            <input type="text" name="pickup" required>
+          </label>
+          <label>Dropoff / Destination
+            <input type="text" name="dropoff">
+          </label>
+        </div>
+        <div class="row">
+          <label>Vehicle (Year/Make/Model)
+            <input type="text" name="vehicle" required>
+          </label>
+          <label>Service
+            <select name="service">
+              <option value="Towing">Towing</option>
+              <option value="Jump Start">Jump Start</option>
+              <option value="Lockout">Lockout</option>
+              <option value="Tire Change">Tire Change</option>
+              <option value="Fuel Delivery">Fuel Delivery</option>
+              <option value="Winch-Out">Winch-Out</option>
+            </select>
+          </label>
+        </div>
+        <label>Details
+          <textarea name="details" rows="4" placeholder="Any special situation (AWD, no key, stuck, etc.)"></textarea>
+        </label>
+        <button class="btn primary" type="submit">Request Quote</button>
+        <p class="form-note">Submitting sends us an email. We’ll text/call you back fast.</p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container foot">
+      <p>© <span id="year"></span> Troy Towing LLC • <a href="tel:+12486067934">(248) 606-7934</a> • <a href="https://www.google.com/search?q=Troy+Towing+LLC" target="_blank" rel="noopener">Google Profile</a></p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
